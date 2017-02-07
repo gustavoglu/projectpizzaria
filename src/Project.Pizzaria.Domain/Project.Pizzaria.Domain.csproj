@@ -42,9 +42,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interfaces\IEntityBase.cs" />
+    <Compile Include="Interfaces\Repository\IBairroRepository.cs" />
     <Compile Include="Interfaces\Repository\IContaRepository.cs" />
+    <Compile Include="Interfaces\Repository\IConta_TipoRepository.cs" />
+    <Compile Include="Interfaces\Repository\IMunicipioRepository.cs" />
     <Compile Include="Interfaces\Repository\IProdutoRepository.cs" />
+    <Compile Include="Interfaces\Repository\IProduto_TipoRepository.cs" />
     <Compile Include="Interfaces\Repository\IRepository.cs" />
+    <Compile Include="Interfaces\Repository\IUfRepository.cs" />
     <Compile Include="Interfaces\Services\IContaService.cs" />
     <Compile Include="Interfaces\Services\IProdutoService.cs" />
     <Compile Include="Models\Bairro.cs" />

@@ -69,8 +69,14 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\BairroRepository.cs" />
     <Compile Include="Repository\ContaRepository.cs" />
+    <Compile Include="Repository\Conta_TipoRepository.cs" />
+    <Compile Include="Repository\MunicipioRepository.cs" />
+    <Compile Include="Repository\ProdutoRepository.cs" />
+    <Compile Include="Repository\Produto_TipoRepository.cs" />
     <Compile Include="Repository\Repository.cs" />
+    <Compile Include="Repository\UfRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\EP.IdentityIsolaiton.Domain.Portable\EP.IdentityIsolaiton.Domain.Portable.csproj">

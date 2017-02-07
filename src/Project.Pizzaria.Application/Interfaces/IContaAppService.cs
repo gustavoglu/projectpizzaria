@@ -22,5 +22,7 @@ namespace Project.Pizzaria.Application.Interfaces
         IEnumerable<ContaViewModel> GetAllActives();
 
         int Remove(ContaViewModel contaViewModel);
+
+
     }
 }

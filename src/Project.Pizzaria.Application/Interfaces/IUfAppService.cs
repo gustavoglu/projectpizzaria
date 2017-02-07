@@ -7,7 +7,20 @@ using System.Threading.Tasks;
 
 namespace Project.Pizzaria.Application.Interfaces
 {
-    public interface IUfAppService 
+    public interface IUfAppService : IDisposable
     {
+        UfViewModel Add(UfViewModel ufViewModel);
+
+        UfViewModel GetById(Guid id);
+
+        UfViewModel Update(UfViewModel ufViewModel);
+
+        UfViewModel Activate(UfViewModel ufViewModel);
+
+        UfViewModel Disable(UfViewModel ufViewModel);
+
+        IEnumerable<UfViewModel> GetAllActives();
+
+        int Remove(UfViewModel bairroViewModel);
     }
 }
